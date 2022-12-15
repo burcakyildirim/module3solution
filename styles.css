@@ -30,6 +30,18 @@ p {
     border:1px solid #F2F7A1;
     border-radius: 4px;
 }
+.navbar-toggle:focus {
+    outline: 0;
+}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+}
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 4px;
+}
 #nav-list {
     margin-top: 10px;
 }
